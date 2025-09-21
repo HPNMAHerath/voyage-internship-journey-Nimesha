@@ -33,7 +33,7 @@ console.log("Merged Arrays : ", merged);
 
 const obj1 = {a:1};
 const obj2 = {b:2};
-const combined = [...obj1, ...obj2];
+const combined = {...obj1, ...obj2};
 console.log("Merged objects : ", combined); 
 
 //PROMISES
@@ -105,7 +105,7 @@ console.log("Filter (evens):", evens);
 
 // reduce
 const total = nums.reduce((acc, n) => acc + n, 0);
-console.log("Reduce (total):", total);
+console.log("Reduce (total):", total); 
 
 
 
